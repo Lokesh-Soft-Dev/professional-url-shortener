@@ -1,12 +1,91 @@
-# React + Vite
+## Professional URL Shortener 🔗
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Live Demo : 
+---
+<div align="center">
+  <img src="https://img.shields.io/badge/React-18-blue" alt="React">
+  <img src="https://img.shields.io/badge/Vite-4-orange" alt="Vite">
+  <img src="https://img.shields.io/badge/SCSS-1.62-pink" alt="SCSS">
+  <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
+</div>
 
-Currently, two official plugins are available:
+## 📌 Quick Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```text
+Professional URL shortener built with React featuring:
+- TinyURL API integration
+- localStorage history tracking
+- One-click copy functionality
+- Responsive mobile-friendly design
+- Clean component architecture
+```
+---
+## 🚀 Features
+```text
+✓ URL shortening via TinyURL API
+✓ Copy shortened URLs to clipboard
+✓ Persistent history with localStorage
+✓ Responsive design (mobile/desktop)
+✓ Form validation and error handling
+✓ Professional animations
+✓ Clean code structure
+```
+---
+## 🛠️ Tech Stack
+```text
+Frontend: React 18 + Vite
+Styling: SCSS with CSS variables
+State: React Hooks
+API: TinyURL
+Storage: localStorage
+```
+---
+## 💻 Installation
+```text
+# Clone repository
+git clone https://github.com/your-username/professional-url-shortener.git
 
-## Expanding the ESLint configuration
+# Install dependencies
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Run locally
+npm run dev
+
+# Build for production
+npm run build
+```
+---
+## 📁 Project Structure
+
+<pre id="folder-structure">
+src/
+├── App.jsx                       # Main component
+├── main.jsx                      # Entry point
+├── components/
+│   ├── UrlForm/                  # Form component
+│   │   ├── index.jsx             # Component export
+│   │   └── style.module.scss     # Component styles
+│   ├── UrlResult/                # Result component
+│   │   ├── index.jsx             # Component export
+│   │   └── style.module.scss     # Component styles
+│   └── UrlHistory/               # History component
+│       ├── index.jsx             # Component export
+│       └── style.module.scss     # Component styles
+└── styles/
+    ├── main.scss                 # Global styles
+    ├── _variables.scss           # Design tokens
+    ├── _mixins.scss              # Utility mixins
+    └── _animations.scss          # Keyframe animations
+</pre>
+---
+## 🌟 Why This Project ?
+1. Demonstrates core React skills
+2. Shows API integration ability
+3. Implements professional state management
+4. Features production-ready error handling
+5. Perfect for developer portfolios
+---
+## ©️ Made By 👨‍💻
+
+## LOKESH K
+---
