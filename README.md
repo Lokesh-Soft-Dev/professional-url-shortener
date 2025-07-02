@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/SCSS-1.62-pink" alt="SCSS">
   <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
 </div>
----
+
 ## 📌 Quick Overview
 
 ```text
